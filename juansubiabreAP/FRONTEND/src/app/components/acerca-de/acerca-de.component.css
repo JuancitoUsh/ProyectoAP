@@ -2,7 +2,7 @@
     padding: 20px;
 }
 div{
-    background-color: #a1b5cb;
+    background-color: #aed0f5;
     text-align: center;
 }
 /*estilo de la foto de perfil*/
@@ -11,7 +11,7 @@ div{
 position: absolute;
 width: 15%;
 border-radius: 100%;
-box-shadow: 3px 3px 3px grey;
+box-shadow: 3px 3px 3px rgb(128, 128, 128);
 left: 2%;
 top: 600px;
     }
@@ -21,7 +21,7 @@ top: 600px;
 position: absolute;
 width: 30%;
 border-radius: 100%;
-box-shadow: 3px 3px 3px grey;
+box-shadow: 3px 3px 3px rgb(128, 128, 128);
 left: 33%;
 top: 950px;
     }
@@ -29,5 +29,6 @@ top: 950px;
 /*etiqueta nombre*/
 #nombre{
     font-weight: bold;
+    font-size: 20px;
     margin-top: 30%;
     }

@@ -4,12 +4,14 @@
             <img src="../../../assets/APLogo.png" id="logoAP">
         </div>
         <div class="redes">
-                <a href=""><img src="../../../assets/linkedin.png" id="linkedin"></a>
-                <a href=""><img src="../../../assets/twitter.png" id="twitter"></a>
-                <a href=""><img src="../../../assets/instagram.png" id="instagram"></a>
-                <a href=""><img src="../../../assets/github.png" id="github"></a>
-                <a href=""><img src="../../../assets/facebook.png" id="facebook"></a>
-                <button type="button" class="btn btn-outline-light">INGRESO</button>
+                
+                <a href="https://www.facebook.com/juuan.subiabre"><img src="../../../assets/facebook.png" id="facebook"></a>
+                <a href="https://www.instagram.com/juanandresitosubiabre"><img src="../../../assets/instagram.png" id="instagram"></a>
+                <a href="https://twitter.com/juanandresitos1"><img src="../../../assets/twitter.png" id="twitter"></a>
+                <a href="https://github.com/JuancitoUsh"><img src="../../../assets/github.png" id="github"></a>
+                <a href="https://www.linkedin.com/in/juan-andr%C3%A9s-subiabre-saldivia-a4798b248"><img src="../../../assets/linkedin.png" id="linkedin"></a>
+                <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!islogged">INGRESAR</button>
+                <button type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="islogged">CERRAR SESION</button>
             </div>
     </div>
 </div>
